@@ -11,7 +11,7 @@
   background-color: aqua;
 }
 .m_login .left {
-  width: 15%;
+  width: 10%;
   height: 100vh;
   background-color: darkgrey;
 }
@@ -19,20 +19,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 80%;
   height: 100vh;
   background-color: black;
 }
 .m_login .mid .login_img {
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 30vh;
+  width: 90%;
+  height: 50vh;
   margin: 50px 0 50px 0;
 }
 .m_login .mid .login_img .img {
   width: 55%;
-  height: 100%;
+  height: 35vh;
 }
 .m_login .mid .inputs {
   display: flex;
@@ -41,9 +41,9 @@
   align-items: center;
   width: 350px;
   height: 300px;
-  background-color: red;
 }
 .m_login .mid .inputs .login_lab {
+  font-size: 20px;
   color: #fff;
 }
 .m_login .mid .inputs .login_inp {
@@ -51,11 +51,20 @@
   height: 40px;
   text-align: center;
   border-radius: 6px;
+  margin: 10px 0 25px 0;
   font-size: 15px;
   font-weight: 600;
 }
+.m_login .mid .inputs .login_btn {
+  width: 150px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(250, 170, 0);
+  border-width: 0.5px;
+  border-color: black;
+}
 .m_login .right {
-  width: 15%;
+  width: 10%;
   height: 100vh;
   background-color: darkgrey;
 }/*# sourceMappingURL=login.css.map */

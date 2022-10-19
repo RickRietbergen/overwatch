@@ -17,12 +17,14 @@
                 <img src="assets/Overwatch_Logo_text.png" alt="logo_text" class="img">
             </div>
             <div class="inputs">
-                <label class="login_lab loading" for="">Account Name</label>
-                <input class="login_inp loading" type="text">
-                <label class="login_lab loading" for="">Password</label>
-                <input class="login_inp loading" type="text">
+                <form action="">
+                    <label class="login_lab loading" for="">Username</label>
+                    <input class="login_inp loading" type="text" placeholder="">
+                    <label class="login_lab loading" for="">Password</label>
+                    <input class="login_inp loading" type="text" placeholder="">
 
-                <button class="login_btn" type="submit">Login</button>
+                    <button class="login_btn" type="submit">Login</button>
+                </form>
             </div>
         </div>
 
